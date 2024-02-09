@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&display=swap");
+
+/*
+* Overriding some general styles from antd, since it is easier to do it here once than in every CSS module
+*/
+
+body {
+  background-color: #cfe0ee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Albert Sans", sans-serif !important;
+  color: #454a55;
+  box-sizing: border-box;
+}
+
+.ant-btn-primary,
+.ant-btn-default {
+  padding: 30px 20px !important;
+  width: 135px;
+}
+
+label {
+  color: #7682a0 !important;
+}
+
+.mainContainer {
+  display: flex;
+  padding: 99px 49px 40px 49px;
+  width: 1200px;
+  height: 800px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}

@@ -1,0 +1,28 @@
+@import '../common.scss';
+
+.unifiedInput {
+  @include unifiedInput();
+
+  &.noRightBorder {
+    @include noRightBorder();
+  }
+
+  &.noLeftBorder {
+    @include noLeftBorder();
+
+  }
+}
+
+.addButton {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  flex-direction: row-reverse;
+
+  span,
+  svg {
+    color: #cfe0ee !important;
+    fill: #cfe0ee;
+  }
+}

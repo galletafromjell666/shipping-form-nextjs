@@ -1,0 +1,21 @@
+@mixin unifiedInput {
+    :global(.ant-input-group-addon) {
+        border-left: 0;
+        background-color: #ffffff;
+        color: #acb3c5;
+    }
+}
+
+
+@mixin noRightBorder {
+    :global(.ant-input-group-addon) {
+        border-right: 0;
+        border-radius: 0;
+    }
+}
+
+@mixin noLeftBorder {
+    :global(.ant-input) {
+        border-radius: 0;
+    }
+}
